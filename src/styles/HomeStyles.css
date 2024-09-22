@@ -1,0 +1,70 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.headerContainer{
+    width:auto;
+    margin-left: 30px;
+}
+.home .headerContainer h1{
+justify-content: center;
+align-items: center;
+font-size: 65px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+
+.home .headerContainer p{
+    margin-top: 15px;
+    font-size: 35px;
+    padding: 0%;
+}
+
+.home .headerContainer button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color:black;
+    font-size: 20px;
+    height: 50px;
+    width: 170px;
+}
+
+
+.headerContainer .home button:hover{
+background-color: #07090a;
+transition: 0.3s ease-in;
+}
+
+@media only screen and (max-width:600px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerContainer{
+        margin-left: 0px;
+        border-radius: 10px;
+        width:80%;
+       
+    }
+    .headerContainer h1{
+        font-size: 40px;
+       
+        margin: 15px 0px;
+    }
+    .headerContainer p{
+        font-size: 20px;
+    }
+    
+}
